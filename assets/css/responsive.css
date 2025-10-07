@@ -1,0 +1,1120 @@
+/*
+Theme Name: ky1ar
+Theme URI: https://krear3dental.com
+Author: Kenny Muñoz Serafin
+Author URI: https://munoz.pe
+Description: Tema personalizado para Krear 3D Dental
+Version: 1.01
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/****************************************************	100rem	1600px	 ***************************************************/ 
+@media only screen and (max-width: 100rem) {
+	#ky1-grd .ky1-ul .ky1-li {
+		width: 33.33%;
+	}
+	#ky1-shp-crt .ky1-wrp {
+		min-height: 65rem;
+	}
+	#ky1-shp-crt .crt-frm table .product-quantity .quantity .custom-number-input{
+		width: 4rem;
+	}
+	#ky1-shp-crt .crt-frm table .product-quantity .quantity .custom-number-input img{
+		width: 0.8rem;
+		margin: 0;
+	}
+	#afiliados .data1-afi .info{
+        margin-right: 1.5rem;
+    }
+    #afiliados .data1-afi .info p{
+        font-size: 0.9rem;
+    }
+    #afiliados .data1-afi .cards{
+        gap: 1rem;
+    }
+    #afiliados .data1-afi .cards .card{
+        width: 12rem;
+        height: 12rem;
+        padding: 1rem;
+    }
+    #afiliados .data1-afi .cards .card img {
+        width: 4rem;
+    }
+    
+    #afiliados .data1-afi .cards .card h1{
+        font-size: 0.65rem;
+    }
+    #afiliados .data1-afi .cards .card p{
+        font-size: 0.6rem;
+    }
+    #afiliados .data-ext .d1 p,
+    #afiliados .data-ext .d2 p{
+        padding: 3rem;
+    }
+}
+/****************************************************	75rem	1200px	 ***************************************************/ 
+@media only screen and (max-width: 75rem) {
+	#ky1-ctg .ctg-btn {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#ky1-ctg a {
+		width: 32%;
+	}
+	#ky1-seo .ky1-wrp.seo-act {
+		max-height: 24rem;
+    	overflow: hidden;
+	}
+	#ky1-seo .seo-flx {
+		flex-direction: column;
+	}
+	#ky1-seo #seo-arr {
+		display: block;
+	}
+	#ky1-grd .ky1-grd-flr {
+		width: 25%;
+	}
+	#ky1-grd .ky1-ul {
+		width: 75%;
+	}
+	#ky1-ldr .ldr-lft {
+		width: 60%;
+	}
+	#ky1-ldr .ldr-rgt {
+		width: 40%;
+	}
+	#ky1-ctg-sct article {
+		width: 33.33%;
+	}
+	#ky1-bnf {
+		display: block;
+	}
+	#ky1-bnf .bnf-box.bnf-a {
+		width: 100%;
+	}
+	#ky1-bnf .bnf-box.bnf-b {
+		width: 100%;     
+		margin-top: 1rem;
+	}
+	#ky1-bnf #bnf-box-thr {
+		position: static;
+		gap: 1rem;
+	}
+	#ky1-bnf .bnf-box .bnf-itm {
+		flex-direction: row-reverse;
+	}
+	#ky1-fnc-btn {
+		flex-direction: column;
+	}
+	#ky1-fnc-btn .fnc-box {
+		width: 100%;
+		flex-direction: row-reverse;
+	}
+	
+	#premios .carousel-x{
+        width: 90%;
+    }
+    #premios .carousel-x .carousel #item1 img{
+        width: 30%;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf .i p{
+        padding: 0 1rem;
+    }
+	#ky1-shp-crt .kyr-o11-sld .slider-container li{
+		flex: 0 0 48.5%;
+	}
+	#ky1-shp-crt .crt-frm table .product-quantity .quantity .custom-number-input {
+        width: 4.2rem;
+    }
+	#ky1-shp-crt .crt-frm table .product-quantity .quantity .custom-number-input img{
+		width: 0.7rem;
+	}
+	#afiliados .data1-afi .info{
+        text-align: left;
+    }
+    #afiliados .data1-afi .info h1{
+        font-size: 1.3rem;
+    }
+    #afiliados .data1-afi .info p{
+        font-size: 0.7rem;
+    }
+    #afiliados .data-ext{
+        padding: 2rem 6rem;
+    }
+    #afiliados .data-ext .d1,
+    #afiliados .data-ext .d2 {
+        min-height: 16rem;
+    }
+    #afiliados .data-ext .d1 p,
+    #afiliados .data-ext .d2 p{
+        font-size: 0.8rem;
+        padding: 1rem 2rem;
+    }
+    #afiliados .pregf .faq{
+        width:85%;
+    }
+	#afiliados .pregf p.intro-q{
+		padding: 0 6rem;
+		width: auto;
+	}
+    #afiliados .tyc div{
+        padding: 2rem;
+    }
+    #afiliados .unete div:first-child{
+        margin-right: 10rem;
+    }
+    #afiliados .data-ext .d1 img,
+    #afiliados .data-ext .d2 img{
+    min-width: 21rem;
+    }
+	#afiliados .video-ins iframe{
+        width: 90%;
+    }
+	.yith-wcaf-dashboard .affiliate-stats .d .data,
+	.yith-wcaf-dashboard .affiliate-stats .tb {
+		padding: 1.5rem;
+	}
+}
+/****************************************************	62rem	992px	 ***************************************************/
+@media only screen and (max-width: 62rem) {
+	#ky1-hdr .hdr-top {
+		gap: 4rem;
+	}
+	.ky1-img .swiffy-slider li:nth-child(even) img {
+		margin-top: 0;
+	}
+	#ky1-grd .ky1-ul .ky1-li {
+		width: 50%;
+	}
+	#ky1-grd .ky1-grd-flr {
+		width: 30%;
+	}
+	#ky1-grd .ky1-ul {
+		width: 70%;
+	}
+	.ky1-cpy {
+		padding: 2rem 0;
+	}
+	.ky1-cpy .ky1-wrp {
+		flex-direction: column;
+	}
+	.ky1-cpy .cpy-lft {
+		margin-bottom: 1rem;
+		width: 90%;
+	}
+	.ky1-cpy .cpy-rgt {
+		width: 90%;
+	}
+	.ky1-cpy ul li {
+		width: 50%;
+	}
+	#ky1-con .ky1-frm {
+		width: 50%;
+	}
+	#google-map {
+		width: 50%;
+	}
+	#ky1-sgl section {
+		width: 70%;
+	}
+	#ky1-sgl aside {
+		width: 30%;
+	}
+	#ky1-ldr form {
+		display: block;
+	}
+	#ky1-ldr .ldr-lft {
+		width: 100%;
+	}
+	#ky1-ldr .ldr-rgt {
+		width: 100%;
+		margin-top: 1rem;
+	}
+	
+	
+	#premios .carousel-x .carousel{
+        height: 24rem;
+    }
+    #premios .carousel-x .carousel #item1 img{
+        height: 24rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos{
+        height: 24rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .sup h1{
+        margin: 0 0 0.5rem 0;
+        font-size: 1rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .sup p{
+        font-size: 0.7rem;
+        margin: 0;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf .i{
+        padding: 0.5rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf .i img{
+        height: 8rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf .i h1{
+        font-size: 0.8rem;
+        margin: 1.2rem 0 0.5rem 0;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf .i p{
+        font-size: 0.6rem;
+		line-height: 1.2;
+    }
+	#premios .carousel-x .carousel #item2 img{
+		height: 24rem;
+	}
+	#ky1-shp-crt .crt-frm {
+		width: 100%;
+	}
+	#ky1-shp-crt .ky1-wrp .cart-collaterals {
+		margin: 2rem 0;
+	}
+	#ky1-shp-crt .ky1-wrp .cart-collaterals .cart_totals{
+		position: static;
+		width: auto;
+	}
+	#ky1-shp-crt .ky1-wrp .cart-collaterals .cart_totals table tr th{
+		width: 22%;
+	}
+	#ky1-shp-crt .kyr-o11-sld {
+		margin-right: 1rem;
+		height: 31rem;
+		background-color: white;
+		border-radius: 0.75rem;
+		padding: 1rem;
+		width: 40%;
+	}
+	#ky1-shp-crt .kyr-o11-sld .slider-container {
+		display: grid;
+		overflow-x: auto;
+	}
+	#ky1-shp-crt .kyr-o11-sld .slider-container li{
+		padding: 0.5rem;
+	}
+	#ky1-shp-crt .kyr-o11-sld .slider-container li:nth-child(1){
+		margin-left: 0;
+	}
+	#ky1-shp-crt .crt-frm table .product-quantity .quantity .custom-number-input{
+		width: 85%;
+	}
+	#ky1-shp-crt .crt-frm table .product-quantity .quantity .custom-number-input img{
+		margin: auto;
+	}
+	#afiliados .data1-afi {
+        flex-direction: column;
+        padding: 2rem;
+        background-color: white;
+    }
+    #afiliados .data1-afi .info{
+        max-width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 1rem;
+        flex-direction: row;
+    }
+    #afiliados .data1-afi .info h1{
+        font-size: 1.85rem;
+        padding: 1rem;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        text-align: left;
+    }
+	#afiliados .data1-afi .info p{
+        width: 50%;
+        padding: 2rem 2rem 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        text-align: left;
+    }
+    #afiliados .data1-afi .cards{
+        gap: 2rem;
+        width: 100%;
+        padding: 2rem;
+        background-image: url(https://tiendakrear3d.com/wp-content/uploads/2024/06/whirlpool.webp);
+    }
+    #afiliados .data1-afi{
+        padding: 0;
+    }
+    #afiliados .data-ext{
+        padding: 2rem;
+    }
+    #afiliados .data-ext .d1 p,
+    #afiliados .data-ext .d2 p{
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+    #afiliados .unete div:first-child{
+        margin-right: 5rem;
+    }
+    #afiliados .unete div:first-child h1{
+        font-size: 3rem;
+    }
+    #afiliados .unete button{
+        font-size: 1.3rem;
+    }
+	.yith-wcaf-dashboard .affiliate-stats {
+		flex-direction: column;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .yith-wcaf-dashboard-navigation {
+		flex-direction: row;
+    	justify-content: center;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .yith-wcaf-dashboard-navigation li a {
+		padding: 0.5rem 1rem;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .table-filters {
+		flex-wrap: wrap;
+	}
+}
+/****************************************************	48rem	768px	 ***************************************************/ 
+@media only screen and (max-width: 48rem) {
+	#ky1-grd .ky1-ul .ky1-li{
+		width: 100%;
+		padding: 0;
+        margin-top: 1rem;
+	}
+	#ky1-supbar .menu-webs{
+		justify-content: center;
+	}
+	#ky1-hdr .hdr-top {
+		gap: unset;
+		padding: 1rem 0;
+	}
+	#ky1-hdr .hdr-lgo {
+		width: 9rem;
+		min-width: 9rem;
+	}
+	#ky1-hdr .hdr-end {
+		display: none;
+	}
+	#ky1-hdr .hdr-frm {
+		flex: 0;
+		margin-left: auto;
+		gap: unset;
+	}
+	#ky1-bar .ky1-wrp {
+		row-gap: 0.25rem;
+	}
+	#ky1-bar .bar-enl a {
+		font-size: 0.8rem;
+	}
+	#ky1-bar .bar-enl img {
+		width: 0.75rem;
+	}
+	#ky1-hdr .hdr-bot {
+		display: none;
+	}
+	#ky1-hdr .hdr-frm input {
+		border-radius: 2rem 0 0 2rem;
+	}
+	#ky1-hdr .hdr-frm button {
+		border-radius: 0 2rem 2rem 0;
+	}
+	#ky1-sld.ky1-wrp{
+		padding: 0;
+	}
+	#ky1-sld .swiffy-slider {
+		border-radius: 0;
+	}
+	#ky1-ctg {
+		margin: 1rem 0;
+	}
+	#ky1-ctg a {
+		width: 45%;
+	}
+	.ky1-lst {
+		padding: 1rem 0;
+	}
+	.ky1-lst h3,
+	.ky1-img h3 {
+		font-size: 1.5rem;
+	}
+	.ky1-lst p {
+		margin-bottom: 1rem;
+	}
+	article.ky1-itm .itm-tmb {
+		width: 10rem;
+	}
+	.ky1-img {
+		padding: 2rem 0;
+	}
+	footer .ftr-itm {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	#ky1-flr {
+		display: block;
+	}
+	#ky1-grd {
+		box-shadow: none;
+		padding-top: 1rem;
+	}
+	#ky1-grd .ky1-wrp {
+		display: block;
+	}
+	#ky1-grd .ky1-grd-flr {
+		width: 100%;
+		padding: 0;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.2s ease-in-out;
+		margin-top: 0.5rem;
+	}
+	#ky1-grd .ky1-ul {
+		width: 100%;
+	}
+	#ky1-grd .woocommerce-pagination {
+		margin-bottom: 1rem;
+	}
+	#ky1-seo {
+		padding: 2rem 0;
+	}
+	.ky1-cpy ul {
+		flex-direction: column;
+	}
+	.ky1-cpy ul li {
+		width: 100%;
+	}
+	.ky1-cpy ul li img {
+		margin-top: 2rem;
+	}
+	#ky1-con .ky1-wrp {
+		display: block;
+	}
+	#ky1-con .ky1-frm {
+		width: 100%;
+	}
+	#google-map {
+		width: 100%;
+    	height: 25rem;
+		margin-top: 1rem;
+	}
+	#ky1-sgl .ky1-wrp {
+		display: block;
+	}
+	#ky1-sgl section {
+		width: 100%;
+		padding: 0;
+	}
+	#ky1-sgl aside {
+		width: 100%;
+	}
+	#ky1-ldr .ldr-fld p {
+		width: 100% !important;
+	}
+	#ky1-ctg-sct article {
+		width: 50%;
+	}
+	#ky1-fin article {
+		width: 50%;
+	}
+	
+	
+	#ky1-fnc-btn {
+		flex-direction: row;
+	}
+	
+	#ky1-mbl {
+		display: block;
+	}
+	.ky1-lst.ky1-bnf h3 {
+		font-size: 0.9rem;
+		letter-spacing: 0.04rem;
+	}
+	#ky1-seo .seo-crd {
+		padding: 3rem;
+	}
+	.ky1-lst.ky1-bnf .swiffy-slider {
+		padding: 1rem 0;
+	}
+	#premios .carousel-x{
+    margin: 1rem auto 1rem auto;
+	}
+    #premios .carousel-x .carousel{
+        height: auto;
+    }
+    #premios .carousel-x .carousel #item1{
+        position: relative;
+    }
+    #premios .carousel-x .carousel #item1 img{
+        height: 50%;
+        border-radius: 1rem 0 0 0;
+    }
+    #premios .carousel-x .carousel #item1 .textos{
+        height: 32rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .sup{
+        height: 50%;
+    }
+    #premios .carousel-x .carousel #item1 .textos .sup h1{
+        font-size: 1.2rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .sup p{
+        font-size: 0.8rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf{
+        display: none;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2{
+        display: flex;
+        height: 45.5%;
+        position: absolute;
+        left: 0;
+        bottom: 1rem;
+        gap: 0.5rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2 .i{
+        width: 50%;
+        height: 13.5rem;
+        background-color: white;
+        padding: 0.5rem;
+        
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2 .i:nth-child(1){
+        border-radius: 0 0 0 1rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2 .i:nth-child(2){
+        border-radius: 0 0 1rem 0;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2 .i img{
+        width: 100%;
+        height: 8rem;
+        border-radius: 0;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2 .i h1{
+		text-align: center;
+        font-size: 0.9rem;
+        margin: 0.5rem 0 0.5rem 0;
+        color: black;
+        height: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2 .i p{
+        font-size: 0.7rem;
+        margin: 0;
+        text-align: center;
+        padding: 0 1rem;
+		line-height: 1;
+		color: black;
+    }
+	#premios .carousel-x .carousel #item2 img{
+		height: 30rem;
+	}
+	
+	#ky1-shp-crt .ky1-wrp .cart-collaterals{
+		display: flex;
+        flex-direction: column;
+	}
+	#ky1-shp-crt .kyr-o11-sld{
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	#ky1-shp-crt .ky1-wrp .cart-collaterals .cart_totals table .woocommerce-shipping-totals td{
+		background-color: white;
+	}
+	#ky1-shp-crt .ky1-wrp .cart-collaterals .cart_totals table .woocommerce-shipping-totals td ul li{
+		padding-left: 5rem;
+    	text-align: justify;
+	}
+	#afiliados .ban-afi img{
+        content: url(https://test.tiendakrear3d.com/wp-content/uploads/2024/06/BANNER-2400X800-PROGRAMA-AFILIADOS.webp);
+    }
+    #afiliados .data1-afi .cards{
+        flex-wrap: wrap;
+    }
+    #afiliados .data-ext .d1,
+    #afiliados .data-ext .d2{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 1rem;
+        margin: 1rem 1.5rem;
+    }
+    #afiliados .data-ext .d1 img,
+    #afiliados .data-ext .d2 img{
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+        padding: 0;
+    }
+    #afiliados .data-ext .d1 p,
+    #afiliados .data-ext .d2 p{
+        width: 100%;
+        text-align: center;
+        line-height: 1.3;
+        border-radius: 0 0 1rem 1rem;
+		background: var(--gray);
+    }
+    #afiliados .pregf h1{
+        font-size: 1.1rem;
+    }
+    #afiliados .pregf .faq .question p{
+        margin-right: 1rem;
+    }
+    #afiliados .unete div:first-child{
+        margin-right: 2rem;
+    }
+    #afiliados .unete div:first-child p{
+        font-size: 0.9rem;
+    }
+    #afiliados .unete div:first-child h1{
+        font-size: 2.5rem;
+    }
+    #afiliados .unete button{
+        font-size: 1rem;
+    }
+	#afiliados .data1-afi .info h1{
+        padding-right: 5rem;
+    }
+	#afiliados .video-ins iframe{
+        height: 20rem;
+    }
+	article.ky1-itm .buy-btn{
+		flex-direction: column;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .yith-wcaf-dashboard-navigation {
+		flex-wrap: wrap;
+	}
+	.yith-wcaf-dashboard .affiliate-stats {
+		gap: 1rem;
+    	padding: 1rem;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .stat-box {
+		gap: 1rem;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .right {
+		padding: 1rem;
+    	gap: 1rem;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .d {
+		gap: 1rem;
+		flex-direction: column;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .d .data {
+		gap: 1rem;
+		padding: 1rem;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .stat-item .stat-value {
+		font-size: 2rem;
+	}
+	.yith-wcaf-dashboard table.shop_table {
+		table-layout: fixed;
+	}
+	.yith-wcaf-dashboard table.shop_table td {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.yith-wcaf-dashboard table.shop_table td a {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: block;
+	}
+	.woocommerce table.shop_table_responsive tr td::before, 
+	.woocommerce-page table.shop_table_responsive tr td::before {
+		margin-right: 1rem;
+	}
+	.yith-wcaf-dashboard .right .d2 form .form-row {
+		flex-direction: column;
+    	gap: 0.5rem;
+	}
+	.yith-wcaf-dashboard .right .d2 form .form-row .copy-field-wrapper {
+		flex-wrap: wrap;
+    	justify-content: center;
+	}
+	.yith-wcaf-dashboard .right .d2 form .form-row .origin-url {
+		width: 100%;
+	}
+	.yith-wcaf-dashboard .right .d1 p {
+		flex-direction: column;
+    	gap: 0.5rem;
+	}
+	.yith-wcaf-dashboard .right .d1 .copy-field-wrapper {
+		flex-wrap: wrap;
+    	justify-content: center;
+	}
+	.yith-wcaf-dashboard .right .d1 h4 {
+		padding-top: 1rem;
+	}
+}
+/****************************************************	36rem	576px	 ***************************************************/ 
+@media only screen and (max-width: 36rem) {
+	#ky1-hdr .hdr-lgo {
+		width: 8rem;
+		min-width: 8rem;
+	}
+	.ky1-lst.ky1-bnf h3{
+		font-size: 0.8rem;
+		line-height: 3rem;
+	}
+	.ky1-lst h3 {
+		font-size: 1.25rem;
+	}
+	article.ky1-itm h4 {
+		letter-spacing: 0;
+		font-size: 0.85rem;
+	}
+	article.ky1-itm b {
+		letter-spacing: 0;
+		font-size: 1.25rem;
+	}
+	#ky1-ctg-sct article {
+		width: 100%;
+	}
+	#ky1-fin article {
+		width: 100%;
+	}
+	#ky1-hdr .hdr-frm input {
+		width: 8rem;
+	}
+	
+	#ky1-bnf .bnf-box .bnf-cnt {
+		flex-direction: column;
+	}
+	#ky1-bnf .bnf-box .bnf-itm {
+		justify-content: space-between;
+		text-align: left;
+	}
+	
+	#ky1-fnc-btn {
+		flex-direction: column;
+	}
+	#ky1-seo .seo-crd {
+		padding: 3rem 2rem;
+	}
+	#ky1-ctg a {
+		width: 48%;
+	}
+	#ky1-ctg img{
+		height: 3rem;
+	}
+	#premios .carousel-x {
+        width: 95%;
+    }
+    #premios .carousel-x .carousel #item1{
+        gap: 0.5rem;
+    }
+    #premios .carousel-x .top h1{
+        margin: 1rem auto 1rem auto;
+        font-size: 1.3rem;
+    }
+    #premios .carousel-x .carousel #item1 img{
+        width: 34%;
+        height: 48%;
+    }
+    #premios .carousel-x .carousel #item1 .textos {
+        height: 28rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .sup{
+        padding: 0 1rem;
+        height: 48%;
+    }
+    #premios .carousel-x .carousel #item1 .textos .sup h1{
+        font-size: 0.8rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .sup p{
+        font-size: 0.7rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2{
+        height: 47%;
+        gap: 0.5rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2 .i {
+        height: 13.5rem;
+    }
+    #premios .carousel-x .carousel #item1 .textos .inf2 .i h1{
+        font-size: 0.75rem;
+    }
+	#premios .carousel-x .carousel #item1 .textos .inf2 .i p{
+        font-size: 0.65rem;
+		padding: 0;
+    }
+	#premios .par {
+		padding: 0;
+		margin: -0.5rem auto 1rem auto;
+	}
+	#premios .par p{
+		text-align: center;
+		max-width: 17rem;
+		font-size: 0.8rem;
+	}
+	#premios .carousel-x .carousel #item2 img{
+		height: 27.5rem;
+	}
+	#ky1-shp-crt .crt-frm {
+		padding: 1rem;
+    	position: relative;
+		box-shadow: none;
+		border-radius: 0 0 0.75rem 0.75rem;
+	}
+	#ky1-shp-crt .crt-frm table thead{
+		display: none;
+	}
+	#ky1-shp-crt .crt-frm table tbody tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        font-size: 1rem;
+        border-radius: 0.75rem;
+        box-shadow: 0 0 0.2rem #a5a5a5;
+        padding: 1rem;
+        margin-bottom: 2rem;
+	}
+	#ky1-shp-crt .crt-frm table tbody tr:last-child{
+		display: none;
+	}
+	#ky1-shp-crt .crt-frm table tbody tr:nth-last-child(2){
+		margin-bottom: 1rem;
+	}
+	#ky1-shp-crt .crt-frm table tbody tr td{
+		border-top: none;
+		padding: 0;
+	}
+	#ky1-shp-crt .crt-frm table tbody tr td a img{
+		width: 18rem;
+    	border-radius: 0.25rem;
+	}
+	
+	#ky1-shp-crt .crt-frm table .product-quantity{
+		margin-left: auto;
+    	margin-bottom: 1rem;
+	}
+	#ky1-shp-crt .crt-frm table .product-subtotal{
+		margin-left: auto;
+		font-weight: 600;
+	}
+	#ky1-shp-crt .crt-frm table .product-remove{
+		position: absolute;
+        right: 2rem;
+	}
+	#ky1-shp-crt .crt-frm table .product-quantity .quantity .custom-number-input{
+		width: 5rem;
+		margin-left: auto;
+	}
+	#ky1-shp-crt .crt-ttl{
+		border-radius: 0.75rem 0.75rem 0 0;
+    	margin: 1rem 0 0 0;
+    	background-color: white;
+	}
+	#ky1-shp-crt .ky1-wrp .cart-collaterals .cart_totals{
+		padding: 1rem 2rem;
+	}
+	#ky1-shp-crt .ky1-wrp .cart-collaterals .cart_totals .wc-proceed-to-checkout a{
+		font-size: 1rem;
+		font-weight: 600;
+	}
+	#afiliados .pregf .faq .question p {
+    	max-width: 14rem;
+	}
+    #afiliados .tyc div h1{
+        font-size: 1.1rem;
+    }
+    #afiliados .tyc div h2{
+        font-size: 0.9rem;
+    }
+    #afiliados .tyc div p{
+        font-size: 0.8rem;
+    }
+    #afiliados .tyc div ul li{
+        font-size: 0.8rem;
+    }
+    #afiliados .ban-afi {
+        padding: 0rem;   
+    }
+    #afiliados .ban-afi img{
+        border-radius: 0;
+    }
+    #afiliados .data-ext {
+        padding: 1rem;
+        gap: 1rem;
+    }
+	#afiliados .data-ext .d1 p,
+    #afiliados .data-ext .d2 p{
+        font-size: 0.65rem;
+    }
+    #afiliados .pregf p.intro-q {
+		padding: 0 3rem;
+	}
+    #afiliados .pregf{
+        padding: 2rem 1rem; 
+    }
+    #afiliados .pregf h1 {
+        font-size: 1rem;
+    }
+    #afiliados .pregf .faq {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    #afiliados .tyc p.open{
+        font-size: 0.9rem;
+    }
+    #afiliados .data1-afi .info h1{
+        font-size: 1.5rem;
+        padding-right: 6rem;
+    }
+    #afiliados .data1-afi .info p{
+        font-size: 0.55rem;
+    }
+    #afiliados .data1-afi .cards{
+        flex-wrap: nowrap;
+        gap: 0.5rem;
+        padding: 2rem 0.5rem;
+    }
+    #afiliados .data1-afi .cards .card{
+        padding: 0.5rem;
+        border-radius: 1rem;
+    }
+    #afiliados .data1-afi .cards .card img{
+        width: 3rem;
+    }
+    #afiliados .data1-afi .cards .card h1{
+        font-size: 0.5rem;
+    }
+    #afiliados .data1-afi .cards .card p{
+        height: 2rem;
+        font-size: 0.5rem;
+    }
+    #afiliados .unete{
+        flex-direction: column;
+    }
+    #afiliados .unete div:first-child{
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+    #afiliados .unete button{
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
+    }
+	.yith-wcaf-dashboard .affiliate-stats .stat-box {
+		flex-direction: column;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .stat-item {
+		width: 100%;
+    	padding: 1rem;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .tb {
+		width: 100%;
+    	padding: 1rem;
+	}
+	.yith-wcaf-dashboard .affiliate-stats .d .data {
+		flex: initial;
+    	width: 100%;
+	}
+	.yith-wcaf-dashboard .comissions .dashboard-title h3 {
+		font-size: 1rem;
+	}
+	.yith-wcaf-dashboard table.shop_table td.column-link,
+	.yith-wcaf-dashboard table.shop_table td.column-product {
+		position: relative;
+    	padding-top: 2.5rem;
+	}
+	.yith-wcaf-dashboard table.shop_table td.column-link::before,
+	.yith-wcaf-dashboard table.shop_table td.column-product::before {
+		position: absolute;
+        top: 1rem;
+        left: 1rem;
+	}
+	.yith-wcaf-dashboard .yith_wcaf_settings_box .single-column {
+		width: 100%;
+	}
+	.yith-wcaf-dashboard .comissions .dashboard-title {
+		    flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+	.yith-wcaf-dashboard .view-all {
+		position: initial;
+	}
+}
+/****************************************************   30rem   480px    ***************************************************/ 
+@media only screen and (max-width: 30rem) {
+	.home .kyr-o11-sld article .sec-brb{
+		margin: 1.2rem 0 0 auto;
+	}
+}
+/****************************************************	26rem	416px	 ***************************************************/ 
+@media only screen and (max-width: 26rem) {
+	#ky1-ctg .ctg-btn {
+		gap: 0.5rem;
+	}
+	article.ky1-itm .itm-tmb {
+		/*width: 8rem;*/
+		margin-top: 3.5rem;
+	}
+	article.ky1-itm .itm-bdg,
+	article.ky1-itm .itm-bdg-pre{
+		border-radius: 0 0 0.5rem 0;
+		top: 0;
+	}
+	article.ky1-itm .itm-brd {
+		top: 2rem;
+	}
+		#ky1-hdr .hdr-frm input {
+		width: 6rem;
+	}
+	#ky1-grd .ky1-ul .ky1-li {
+		padding: 0;
+	}
+	#ky1-grd .ky1-wrp {
+		padding: 0 1rem;
+	}
+	#premios .carousel-x .carousel #item1 .textos .sup h1{
+		font-size: 0.7rem;
+	}
+	#premios .carousel-x .carousel #item1 .textos .sup p{
+		font-size: 0.6rem;
+	}
+	#premios .carousel-x .carousel #item1 .textos .inf2 .i{
+		height: 13.5rem;
+	}
+    #premios .carousel-x .carousel #item1 .textos .inf2 .i h1{
+        font-size: 0.6rem;
+    }
+	#premios .carousel-x .carousel #item1 .textos .inf2 .i p{
+        font-size: 0.55rem;
+        padding: 0;
+    }
+	#afiliados .data-ext .d1 p,
+    #afiliados .data-ext .d2 p{
+        font-size: 0.6rem;
+		width: 21rem;
+    }
+    #afiliados .pregf .faq {
+        font-size: 0.8rem;
+    }
+    #afiliados .pregf .faq .question button{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    #afiliados .pregf .faq .question button img{
+        width: 0.7rem;
+    }
+    #afiliados .data1-afi .info h1{
+        font-size: 1.3rem;
+		padding-right: 4rem;
+    }
+    #afiliados .data1-afi .info p{
+        font-size: 0.5rem;
+        padding: 2rem 1rem 2rem 0;
+    }
+	#afiliados .pregf .faq .question p {
+    	max-width: 12rem;
+	}
+	#afiliados .tyc{
+		padding: 1rem;
+	}
+}
