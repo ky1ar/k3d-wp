@@ -22,7 +22,7 @@ $size = $brandLogos['size'];
 $CF_principal = get_field( 'principal', $currentProductID );
 
 $allCategories = wp_get_post_terms($currentProductID, 'product_cat');
-$allowCategories = ['impresoras3d', 'maquinas-cnc', 'cortadoras-laser', 'escaneres3d', 'drones', 'realidadvirtual', 'plotters', 'scooters', 'robotica']; // Slugs de categorías permitidas
+$allowCategories = ['gaming', 'impresoras3d', 'maquinas-cnc', 'cortadoras-laser', 'escaneres3d', 'drones', 'realidadvirtual', 'plotters', 'scooters', 'robotica']; // Slugs de categorías permitidas
 $showSpecs = false;
 
 foreach ($allCategories as $cat) {
@@ -151,6 +151,7 @@ if (!empty($CF_principal['etiqueta'])) {
                             ['Volumen', 'Volumen', 'Resolución', 'Vel. máx.'],
                             $TSlabel
                         );
+
 						if ($productCategory == 'cortadoras-laser') {
 							$TSlabel = str_replace(
 								['Área de Grabado', 'Profundidad de Corte'],
