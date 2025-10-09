@@ -1,7 +1,6 @@
 body.term-gaming {
-    background-color: var(--black);
+    background-color: #17171c;
 }
-
 body.term-gaming #slider,
 body.term-gaming #producGrid,
 body.term-gaming footer,
@@ -9,16 +8,17 @@ body.term-gaming footer .activ {
     background-color: transparent;
 }
 
-body.term-gaming footer .ftr-bot {
-    background-color: var(--black);
-}
 
 body.term-gaming #showFilters div .wpfFilterWrapper,
 body.term-gaming .productItem {
-    background-color: var(--black);
+    background-color: #202027;
 }
 
 body.term-gaming .irs--flat .irs-line,
 body.term-gaming  #showFilters .wpfFilterContent .ms-options-wrap > button {
+    background-color: var(--black);
+}
+
+body.term-gaming footer .ftr-bot {
     background-color: var(--black);
 }

@@ -1,7 +1,7 @@
 <?php
 
 function ky1ar_enqueue_scripts() {
-    $version = '0.8752';
+    $version = '0.8753';
 
 	wp_enqueue_style('css-styles', get_template_directory_uri() . '/assets/css/client.css', array(), $version, 'all');
 	wp_enqueue_style('gaming-css', get_template_directory_uri() . '/assets/css/gaming.css', array(), $version, 'all');
