@@ -24,11 +24,29 @@ body.term-gaming .productItem pre {
     border-bottom: solid 0.125rem #ffffff14;
 }
 
-body.term-gaming .irs--flat .irs-line,
-body.term-gaming  #showFilters .wpfFilterContent .ms-options-wrap > button {
-    background-color: var(--black);
+body.term-gaming #showFilters .wfpTitle {
+    text-shadow: 0 0 1rem var(--primary);
+    border: none;
+    padding: 0;
 }
 
+
+body.term-gaming #showFilters .wpfFilterContent .ms-options-wrap > button {
+    background-color: #2d2d36;
+    border: none !important;
+    color: white !important;
+    font-family: 'Poppins';
+    font-size: 0.75rem !important;
+}
+
+body.term-gaming .wpfFilterWrapper[data-radio="1"] .wpfCheckbox label:before {
+        background-color: #17171c !important;
+    border: none !important;
+}
+
+body.term-gaming .wpfFilterContent {
+    color: white;  
+}
 body.term-gaming footer .ftr-bot {
     background-color: var(--black);
 }
