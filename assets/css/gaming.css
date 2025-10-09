@@ -1,11 +1,11 @@
 body.term-gaming {
-    background-color: var(--gray);
+    background-color: var(--black);
 }
 
 body.term-gaming #slider,
 body.term-gaming #producGrid,
-body.term-gaming #footer .activ,
-body.term-gaming footer  {
+body.term-gaming footer,
+body.term-gaming footer .activ {
     background-color: transparent;
 }
 
