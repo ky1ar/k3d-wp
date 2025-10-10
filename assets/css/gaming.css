@@ -3,12 +3,21 @@ body.term-gaming {
 }
 body.term-gaming #slider,
 body.term-gaming #producGrid,
+body.term-gaming #taxonomySelector,
 body.term-gaming footer,
 body.term-gaming footer .activ {
     background-color: transparent;
+    color: white;
 }
 
-
+body.term-gaming #taxonomySelector a {
+    background-color: #2d2d36;
+    border: none;
+    color: white;
+}
+body.term-gaming #producGrid {
+    margin-bottom: 1.5rem;
+}
 body.term-gaming #showFilters div .wpfFilterWrapper,
 body.term-gaming .productItem {
     background-color: #202027;
@@ -39,8 +48,17 @@ body.term-gaming #showFilters .wpfFilterContent .ms-options-wrap > button {
     font-size: 0.75rem !important;
 }
 
+body.term-gaming .ms-options-wrap > .ms-options,
+body.term-gaming .irs--flat .irs-line {
+    background-color: #2d2d36;
+}
+.ms-options-wrap > .ms-options > ul li.selected label, 
+.ms-options-wrap > .ms-options > ul label:hover {
+    background-color: #40404d;
+}
+
 body.term-gaming .wpfFilterWrapper[data-radio="1"] .wpfCheckbox label:before {
-        background-color: #17171c !important;
+    background-color: #17171c !important;
     border: none !important;
 }
 
