@@ -70,3 +70,83 @@ body.term-gaming .wpfFilterContent {
 body.term-gaming footer .ftr-bot {
     background-color: var(--black);
 }
+
+
+#productPage.gamming {
+    background-color: #17171c;
+}
+#productPage.gamming .woocommerce-breadcrumb {
+    margin: 0;
+    padding: 1rem 0.5rem;
+    color: white;
+}
+#productPage.gamming .woocommerce-breadcrumb .woocommerce-breadcrumb a {
+    color: #7f8397;
+}
+#productPage.gamming .headerBox {
+    background-color: #202027;
+    color: white;
+    border: none;
+}
+#productPage.gamming #deliveryMethods, 
+#productPage.gamming #ky1-sht-spc {
+    background-color: #17171c;
+    box-shadow: none;
+}
+#productPage.gamming #deliveryMethods h4, 
+#productPage.gamming #ky1-sht-spc h4 {
+    background-color: #202027;
+    box-shadow: none;
+    font-weight: 500;
+}
+#productPage.gamming #deliveryMethods .met-cnt .met-itm,
+#productPage.gamming #ky1-sht-spc pre {
+    background-color: #202027;
+    box-shadow: none;
+}
+#productPage.gamming #ky1-sht-spc em {
+    font-family: monospace;
+}
+#productPage.gamming #ky1-sht-spc em + em {
+    color: white;
+    font-weight: 500;
+}
+#productPage.gamming .summary .pwb-single-product-brands img {
+    filter: invert(1);
+}
+#productPage.gamming .ky1-spc ul {
+    background-color: #202027;
+    box-shadow: none;
+}
+#productPage.gamming .ky1-spc ul li {
+    color: white;
+    font-family: monospace;
+}
+#productPage.gamming .ky1-spc ul li + li {
+    font-weight: 500;
+}
+#productPage.gamming #tab-description {
+    background-color: #202027;
+    box-shadow: none;
+    color: white;
+}
+#productPage.gamming #tab-description h1 {
+    color: white;
+}
+#productPage.gamming #reviews {
+    color: white;
+}
+#productPage.gamming .woocommerce #review_form #respond {
+    background-color: #202027;
+    box-shadow: none;
+}
+#productPage.gamming .woocommerce #review_form #respond textarea {
+    background-color: #17171c;
+    box-shadow: none;
+}
+#productPage.gamming .woocommerce #review_form #respond .form-submit input {
+    color: var(--secondary);
+    background-color: var(--white);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
