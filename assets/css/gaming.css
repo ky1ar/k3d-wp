@@ -80,8 +80,8 @@ body.term-gaming footer .ftr-bot {
     padding: 1rem 0.5rem;
     color: white;
 }
-#productPage.gaming .woocommerce-breadcrumb .woocommerce-breadcrumb a {
-    color: #7f8397;
+#productPage.gaming .woocommerce-breadcrumb a {
+    color: #60606e;
 }
 #productPage.gaming .headerBox {
     background-color: #202027;
@@ -154,4 +154,8 @@ body.term-gaming footer .ftr-bot {
 }
 #productPage.gaming #buyButtons .buy-wsp {
     background-color: #2f2f3a;
+}
+
+#productPage.gaming .badge {
+    box-shadow: 0 0 2rem #ea713475;
 }
