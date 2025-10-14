@@ -22,7 +22,9 @@ body.term-gaming #showFilters div .wpfFilterWrapper,
 body.term-gaming .productItem {
     background-color: #202027;
 }
-
+body.term-gaming .productItem:hover .viewMore {
+    background-color: #2d2d36;
+}
 body.term-gaming .productItem .link .brand img {
     filter: invert(1);
 }
@@ -156,6 +158,17 @@ body.term-gaming footer .ftr-bot {
     background-color: #2f2f3a;
 }
 
+#productPage.gaming #buyButtons .buy-add,
 #productPage.gaming .badge {
-    box-shadow: 0 0 2rem #ea713475;
+    box-shadow: 0 0 2rem #ea713442;
+}
+
+.pswp .pswp__scroll-wrap.gaming {
+    background-color: #202027;
+}
+.pswp .pswp__scroll-wrap.gaming .pswp__ui .pswp__caption {
+    background-color: #17171c;
+}
+.pswp .pswp__scroll-wrap.gaming .pswp__ui .pswp__caption__center {
+    color: white;
 }
