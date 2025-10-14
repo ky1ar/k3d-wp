@@ -98,6 +98,7 @@ body.term-gaming footer .ftr-bot {
     background-color: #202027;
     box-shadow: none;
     font-weight: 500;
+    color: white;
 }
 #productPage.gaming #deliveryMethods .met-cnt .met-itm,
 #productPage.gaming #ky1-sht-spc pre {
@@ -136,17 +137,20 @@ body.term-gaming footer .ftr-bot {
 #productPage.gaming #reviews {
     color: white;
 }
-#productPage.gaming .woocommerce #review_form #respond {
+#productPage.gaming #review_form #respond {
     background-color: #202027;
     box-shadow: none;
 }
-#productPage.gaming .woocommerce #review_form #respond textarea {
+#productPage.gaming #review_form #respond textarea {
     background-color: #17171c;
     box-shadow: none;
 }
-#productPage.gaming .woocommerce #review_form #respond .form-submit input {
+#productPage.gaming #review_form #respond .form-submit input {
     color: var(--secondary);
     background-color: var(--white);
     font-weight: 600;
     font-size: 0.85rem;
+}
+#productPage.gaming #buyButtons .buy-wsp {
+    background-color: #2f2f3a;
 }
