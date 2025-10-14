@@ -136,6 +136,7 @@ body.term-gaming footer .ftr-bot {
 }
 #productPage.gaming #reviews {
     color: white;
+    padding-bottom: 1rem;
 }
 #productPage.gaming #review_form #respond {
     background-color: #202027;
