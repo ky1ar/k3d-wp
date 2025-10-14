@@ -1,0 +1,70 @@
+body.term-gaming {
+    background-color: #17171c;
+}
+body.term-gaming #slider,
+body.term-gaming #producGrid,
+body.term-gaming #taxonomySelector,
+body.term-gaming footer,
+body.term-gaming footer .activ {
+    background-color: transparent;
+    color: white;
+}
+
+body.term-gaming #taxonomySelector a {
+    background-color: #2d2d36;
+    border: none;
+    color: white;
+}
+body.term-gaming #producGrid {
+    margin-bottom: 1.5rem;
+}
+body.term-gaming #showFilters div .wpfFilterWrapper,
+body.term-gaming .productItem {
+    background-color: #202027;
+}
+
+body.term-gaming .productItem .link .brand img {
+    filter: invert(1);
+}
+body.term-gaming .productItem .link {
+    color: #ffffff;
+}
+body.term-gaming .productItem pre {
+    border-bottom: solid 0.125rem #ffffff14;
+}
+
+body.term-gaming #showFilters .wfpTitle {
+    text-shadow: 0 0 1rem var(--primary);
+    border: none;
+    padding: 0;
+}
+
+
+body.term-gaming #showFilters .wpfFilterContent .ms-options-wrap > button {
+    background-color: #2d2d36;
+    border: none !important;
+    color: white !important;
+    font-family: 'Poppins';
+    font-size: 0.75rem !important;
+}
+
+body.term-gaming .ms-options-wrap > .ms-options,
+body.term-gaming .irs--flat .irs-line {
+    background-color: #2d2d36;
+}
+.ms-options-wrap > .ms-options > ul li.selected label, 
+.ms-options-wrap > .ms-options > ul label:hover {
+    background-color: #40404d;
+}
+
+body.term-gaming .wpfFilterWrapper[data-radio="1"] .wpfCheckbox label:before {
+    background-color: #17171c !important;
+    border: none !important;
+}
+
+body.term-gaming .wpfFilterContent {
+    color: white;  
+}
+body.term-gaming footer .ftr-bot {
+    background-color: var(--black);
+}

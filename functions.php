@@ -1,9 +1,10 @@
 <?php
 
 function ky1ar_enqueue_scripts() {
-    $version = '0.874';
+    $version = '0.8756';
 
 	wp_enqueue_style('css-styles', get_template_directory_uri() . '/assets/css/client.css', array(), $version, 'all');
+	wp_enqueue_style('gaming-css', get_template_directory_uri() . '/assets/css/gaming.css', array(), $version, 'all');
 	
 	wp_enqueue_style('swiffy-styles', get_template_directory_uri() . '/assets/css/swiffy-slider.min.css', array(), $version, 'all');
 	wp_enqueue_style('fancybox CSS', get_template_directory_uri() . '/assets/css/jquery.fancybox.min.css', 'null', $version, 'all');

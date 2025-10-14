@@ -1,13 +1,3 @@
-/*
-	Theme Name: ky1ar
-	Theme URI: https://www.tiendakrear3d.com
-	Author: Kenny Muñoz Serafin
-	Author URI: https://munoz.pe
-	Description: Tema personalizado para Krear 3D
-	Version: 1.01
-	License: GNU General Public License v3 or later
-	License URI: http://www.gnu.org/licenses/gpl-3.0.html
-*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
@@ -320,7 +310,7 @@ header .bottom #menu-item-29859 > a[aria-current="page"]{
 }
 header .bottom ul li:last-child a{
 	position: relative;
-	background: linear-gradient(45deg, #ffa500, #ff7f50, #ff4500); !important;
+	background: linear-gradient(45deg, #ffa500, #ff7f50, #ff4500) !important;
 	overflow: hidden;
 	color: var(--white);
 }
@@ -7749,7 +7739,6 @@ border: none;
 	#ky1-nrf .rff-prz h1{
 		font-size: 1.7rem;
 	}
-	#ky1-nrf .rff-stp ul li
 }
 @media only screen and (max-width: 28rem) { 
 	#ky1-nrf .rff-stp ul li:nth-of-type(1) p{
@@ -12512,7 +12501,7 @@ button.pswp__button:hover {
 	}
 	#prime-pagek3d .desc-planes .marcas div:nth-of-type(2),
 	#prime-pagek3d .desc-planes .marcas div:nth-of-type(3){
-		justify-content: space-between;-;
+		justify-content: space-between;
 	}
 	#prime-pagek3d .preguntas .pregcon .sec .cont{
 		width: 100%;
@@ -16577,3 +16566,4 @@ footer.open .activ .c img{
 		display: none;
 	}
 }
+
