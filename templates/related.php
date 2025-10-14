@@ -1,8 +1,20 @@
-<?php $id_p = $product->get_id();?>
 <?php
-$product       = wc_get_product($id_p);
-$title         = $product->get_name();
+$id_p = $product->get_id();
+$product = wc_get_product($id_p);
+$title = $product->get_name();
 $terms = $product->get_category_ids();
+
+$category_slugs = array();
+if ( !empty($terms) ) {
+    foreach ( $terms as $term_id ) {
+        $term = get_term( $term_id, 'product_cat' );
+        if ( $term && !is_wp_error($term) ) {
+            $category_slugs[] = $term->slug;
+        }
+    }
+}
+$category_classes = implode(' ', $category_slugs);
+
 $related_posts = new WP_Query(array(
     'posts_per_page' => 12,
     'orderby' => 'date',
@@ -11,7 +23,7 @@ $related_posts = new WP_Query(array(
     'post_type'      => 'product',
     'fields'         => 'ids',
     'exclude'        => array($id_p),
-    'tax_query'             => array(
+    'tax_query'      => array(
         array(
             'taxonomy'      => 'product_cat',
             'field' 		=> 'term_id',
@@ -22,7 +34,7 @@ $related_posts = new WP_Query(array(
 ));
 ?>
 
-<section class="productSlider">
+<section class="productSlider <?php echo esc_attr($category_classes); ?>">
     <div class="wrapper">
         <div class="rld-ttl">
             <h3>También te recomendamos</h3>
