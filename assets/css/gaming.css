@@ -30,7 +30,8 @@ body.term-gaming .productItem .link {
     color: #ffffff;
 }
 body.term-gaming .productItem pre {
-    border-bottom: solid 0.125rem #ffffff14;
+    border-top: solid 0.125rem #ffffff14;
+    border-bottom: none;
     justify-content: center;
 }
 
