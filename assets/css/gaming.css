@@ -31,6 +31,7 @@ body.term-gaming .productItem .link {
 }
 body.term-gaming .productItem pre {
     border-bottom: solid 0.125rem #ffffff14;
+    justify-content: center;
 }
 
 body.term-gaming #showFilters .wfpTitle {
