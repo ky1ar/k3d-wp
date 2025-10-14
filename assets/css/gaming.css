@@ -108,11 +108,13 @@ body.term-gaming footer .ftr-bot {
     box-shadow: none;
 }
 #productPage.gaming #ky1-sht-spc em {
-    font-family: monospace;
+    font-family: 'poppins';
+    font-size: 0.85rem;
 }
 #productPage.gaming #ky1-sht-spc em + em {
     color: white;
     font-weight: 500;
+    font-size: 0.8rem;
 }
 #productPage.gaming .summary .pwb-single-product-brands img {
     filter: invert(1);
@@ -123,10 +125,12 @@ body.term-gaming footer .ftr-bot {
 }
 #productPage.gaming .ky1-spc ul li {
     color: white;
-    font-family: monospace;
+    font-family: 'poppins';
+    font-size: 0.85rem;
 }
 #productPage.gaming .ky1-spc ul li + li {
     font-weight: 500;
+    font-size: 0.8rem;
 }
 #productPage.gaming #tab-description {
     background-color: #202027;
