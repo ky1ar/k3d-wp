@@ -159,21 +159,10 @@ if (!empty($CF_principal['etiqueta'])) {
 								$TSlabel
 							);
 						}
-                        if ($productCategory == 'gaming') {
-							echo '
-								<pre>
-									<em>' . $TSlabel . '</em>
-									<em>' . $techSpec[ 'texto' ] . '</em>
-								</pre>
-							';
-						} else {
-							echo '
-								<pre>
-									<em>' . $TSlabel . '</em>
-									<em>' . $techSpec[ 'texto' ] . '</em>
-								</pre>
-							';
-						}
+                        echo '<pre>
+                                <em>' . $TSlabel . '</em>
+                                <em>' . $techSpec . '</em>
+                            </pre>';
                     } else {
                         $TSlabel = $techSpec[ 'etiqueta' ];
                         $TSlabel = str_replace(
@@ -189,7 +178,20 @@ if (!empty($CF_principal['etiqueta'])) {
 								$TSlabel
 							);
 						}
-						
+						if ($productCategory == 'gaming') {
+							echo '
+								<pre>
+									<em>' . $techSpec[ 'texto' ] . '</em>
+								</pre>
+							';
+						} else {
+							echo '
+								<pre>
+									<em>' . $TSlabel . '</em>
+									<em>' . $techSpec[ 'texto' ] . '</em>
+								</pre>
+							';
+						}
                    
                     }
                     $limit--;
