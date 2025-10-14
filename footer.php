@@ -205,6 +205,20 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+
+  const checkPswp = setInterval(() => {
+        const pswpWrap = document.querySelector('.pswp__scroll-wrap');
+        if (pswpWrap) {
+            clearInterval(checkPswp);
+
+            const productSection = document.querySelector('#productPage');
+            if (productSection) {
+                const classes = productSection.className.split(' ');
+                classes.forEach(c => pswpWrap.classList.add(c));
+            }
+        }
+    }, 300);
+
 });
 </script>
 <?php wp_footer(); ?>
