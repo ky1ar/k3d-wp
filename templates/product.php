@@ -171,20 +171,28 @@ if (!empty($CF_principal['etiqueta'])) {
                             $TSlabel
                         );
 						
-						 if ($productCategory == 'cortadoras-laser') {
+						if ($productCategory == 'cortadoras-laser') {
 							$TSlabel = str_replace(
 								['Área de Grabado', 'Profundidad de Corte'],
 								['Área', 'Corte'],
 								$TSlabel
 							);
 						}
-    
-                        echo '
-                            <pre>
-                                <em>' . $TSlabel . '</em>
-                                <em>' . $techSpec[ 'texto' ] . '</em>
-                            </pre>
-                        ';
+						if ($productCategory == 'gaming') {
+							echo '
+								<pre>
+									<em>' . $techSpec[ 'texto' ] . '</em>
+								</pre>
+							';
+						} else {
+							echo '
+								<pre>
+									<em>' . $TSlabel . '</em>
+									<em>' . $techSpec[ 'texto' ] . '</em>
+								</pre>
+							';
+						}
+                   
                     }
                     $limit--;
                 }

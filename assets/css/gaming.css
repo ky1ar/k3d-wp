@@ -22,7 +22,9 @@ body.term-gaming #showFilters div .wpfFilterWrapper,
 body.term-gaming .productItem {
     background-color: #202027;
 }
-
+body.term-gaming .productItem:hover .viewMore {
+    background-color: #2d2d36;
+}
 body.term-gaming .productItem .link .brand img {
     filter: invert(1);
 }
@@ -30,7 +32,9 @@ body.term-gaming .productItem .link {
     color: #ffffff;
 }
 body.term-gaming .productItem pre {
-    border-bottom: solid 0.125rem #ffffff14;
+    border-top: solid 0.125rem #ffffff14;
+    border-bottom: none;
+    justify-content: center;
 }
 
 body.term-gaming #showFilters .wfpTitle {
@@ -67,4 +71,108 @@ body.term-gaming .wpfFilterContent {
 }
 body.term-gaming footer .ftr-bot {
     background-color: var(--black);
+}
+
+
+#productPage.gaming {
+    background-color: #17171c;
+}
+#productPage.gaming .woocommerce-breadcrumb {
+    margin: 0;
+    padding: 1rem 0.5rem;
+    color: white;
+}
+#productPage.gaming .woocommerce-breadcrumb a {
+    color: #60606e;
+}
+#productPage.gaming .headerBox {
+    background-color: #202027;
+    color: white;
+    border: none;
+}
+#productPage.gaming #deliveryMethods, 
+#productPage.gaming #ky1-sht-spc {
+    background-color: #17171c;
+    box-shadow: none;
+}
+#productPage.gaming #deliveryMethods h4, 
+#productPage.gaming #ky1-sht-spc h4 {
+    background-color: #202027;
+    box-shadow: none;
+    font-weight: 500;
+    color: white;
+}
+#productPage.gaming #deliveryMethods .met-cnt .met-itm,
+#productPage.gaming #ky1-sht-spc pre {
+    background-color: #202027;
+    box-shadow: none;
+}
+#productPage.gaming #ky1-sht-spc em {
+    font-family: 'poppins';
+    font-size: 0.85rem;
+}
+#productPage.gaming #ky1-sht-spc em + em {
+    color: white;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+#productPage.gaming .summary .pwb-single-product-brands img {
+    filter: invert(1);
+}
+#productPage.gaming .ky1-spc ul {
+    background-color: #202027;
+    box-shadow: none;
+}
+#productPage.gaming .ky1-spc ul li {
+    color: white;
+    font-family: 'poppins';
+    font-size: 0.85rem;
+}
+#productPage.gaming .ky1-spc ul li + li {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+#productPage.gaming #tab-description {
+    background-color: #202027;
+    box-shadow: none;
+    color: white;
+}
+#productPage.gaming #tab-description h1 {
+    color: white;
+}
+#productPage.gaming #reviews {
+    color: white;
+    padding-bottom: 2.5rem;
+}
+#productPage.gaming #review_form #respond {
+    background-color: #202027;
+    box-shadow: none;
+}
+#productPage.gaming #review_form #respond textarea {
+    background-color: #17171c;
+    box-shadow: none;
+}
+#productPage.gaming #review_form #respond .form-submit input {
+    color: var(--secondary);
+    background-color: var(--white);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+#productPage.gaming #buyButtons .buy-wsp {
+    background-color: #2f2f3a;
+}
+
+#productPage.gaming #buyButtons .buy-add,
+#productPage.gaming .badge {
+    box-shadow: 0 0 2rem #ea713442;
+}
+
+.pswp .pswp__scroll-wrap.gaming {
+    background-color: #202027;
+}
+.pswp .pswp__scroll-wrap.gaming .pswp__ui .pswp__caption {
+    background-color: #17171c;
+}
+.pswp .pswp__scroll-wrap.gaming .pswp__ui .pswp__caption__center {
+    color: white;
 }
